@@ -23,16 +23,16 @@ export default function App() {
                     <p className="text-sm md:text-xl mb-5 opacity-70 ">Begin your journey Towards Making People Healthy</p>
                     <div className="flex justify-between items-center gap-5 mb-5">
                         <Link href="https://play.google.com/store/apps/details?id=com.wellnessz.truefit&hl=en-US" target="_blank">
-                            <Image src="/playStore.png" alt="Google Store" width={150} height={40} className="object-contain cursor-pointer" />
+                            <Image loading="lazy" src="/playStore.png" alt="Google Store" width={150} height={40} className="object-contain cursor-pointer" />
                         </Link>
                         <Link href="https://apps.apple.com/us/app/wellnessz/id6478812964" target="_blank">
-                            <Image src="/appStore.png" alt="App Store" width={150} height={60} className="object-contain cursor-pointer" />
+                            <Image loading="lazy" src="/appStore.png" alt="App Store" width={150} height={60} className="object-contain cursor-pointer" />
                         </Link>
                     </div>
                 </div>
 
                 <div className="flex justify-center items-center mr-2 md:mr-12">
-                    <Image src="/mockup.png" alt="WellnessZ App Screens" width={900} height={900} className="w-full self-center md:w-[850px]" />
+                    <Image loading="lazy" src="/mockup.png" alt="WellnessZ App Screens" width={900} height={900} className="w-full self-center md:w-[850px]" />
                 </div>
             </div>
         </section>

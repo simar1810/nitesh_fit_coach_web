@@ -56,7 +56,7 @@ export default function Home() {
         <div className="flex flex-col items-start xl:w-[50%] gap-6 ">
           <div className="flex justify-self-center -mb-4 md:mb-0 items-center cursor-pointer gap-1 md:gap-2 text-[0.8rem] md:px-4 px-2 py-2 border-[1px] border-[#144EE3] text-primary font-semibold rounded-2xl shadow-[9px_9px_6px_0px_#F2F1F8]">
             Feel the Strength
-            <Image src="/heart.svg" alt="image" width={30} height={30} />
+            <Image loading="lazy" src="/heart.svg" alt="image" width={30} height={30} />
           </div>
           <h1 className="lg:leading-[4.4rem] font-semibold text-[2rem] md:text-[3rem] md:leading-[3rem] leading-8 lg:text-[4rem] mt-4">
             Get <span className="text-primary">Healthy body</span>
@@ -76,7 +76,7 @@ export default function Home() {
             </Link>
 
             <div className="flex justify-center items-end text-[0.8rem] gap-3 font-semibold md:text-[0.9rem] py-2 cursor-pointer">
-              <Image src="/playButton.svg" alt="image" width={20} height={20} />{" "}
+              <Image loading="lazy" src="/playButton.svg" alt="image" width={20} height={20} />{" "}
               Watch Demo
             </div>
           </div>
@@ -89,11 +89,10 @@ export default function Home() {
                 className="flex flex-col md:leading-9 opacity-80 font-semibold md:text-left mr-2"
               >
                 <span
-                  className={`flex text-[1.7rem] self-center md:self-auto md:text-[2rem] ${
-                    index < numbersData.length - 1
+                  className={`flex text-[1.7rem] self-center md:self-auto md:text-[2rem] ${index < numbersData.length - 1
                       ? "md:border-r-2 border-r-black"
                       : ""
-                  }`}
+                    }`}
                 >
                   <AnimatedNumber number={item.value} /> {item.postfix}
                 </span>

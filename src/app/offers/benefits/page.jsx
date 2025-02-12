@@ -38,17 +38,16 @@ export default function Benefits3() {
           <div
             key={i}
             className={`flex justify-between item-between bg-white mb-6 p-3
-                    ${
-                      i % 2
-                        ? "flex-col-reverse md:flex-row-reverse "
-                        : "flex-col-reverse md:flex-row"
-                    }`}
+                    ${i % 2
+                ? "flex-col-reverse md:flex-row-reverse "
+                : "flex-col-reverse md:flex-row"
+              }`}
           >
             <div className="flex flex-col gap-4 md:max-w-[50%] md:mt-10">
               <h1 className="font-semibold md:text-[1.2rem]">{item.name}</h1>
               <p className="text-[0.8rem] md:text-[1rem]">{item.desc}</p>
             </div>
-            <Image src={item.img} alt="image" width={479} height={500}></Image>
+            <Image loading="lazy" src={item.img} alt="image" width={479} height={500}></Image>
           </div>
         ))}
       </div>
@@ -71,7 +70,7 @@ export default function Benefits3() {
           </div>
         </div>
 
-        <Image src="/qrCode.svg" alt="image" width={219} height={219}></Image>
+        <Image loading="lazy" src="/qrCode.svg" alt="image" width={219} height={219}></Image>
       </div>
     </section>
   );

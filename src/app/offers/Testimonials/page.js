@@ -73,10 +73,10 @@ export default function Testimonials() {
                 <Slider {...settings} className="w-full gap-6">
                     {data.map((item, index) => (
                         <div key={index} className="flex flex-col bg-[#f4f9e5] justify-between max-w-[94%] md:max-w-[94%] min-h-[150px] md:min-h-[220px] rounded-md mb-4 mx-3 px-6 md:px-8 py-3 gap-3"> {/* Adjusted margin for spacing */}
-                            <Image src="/quotes.svg" width={69} height={69} alt="icon" className="w-[35px] h-[35px] md:w-[45px] md:h-[45px]" />
+                            <Image loading="lazy" src="/quotes.svg" width={69} height={69} alt="icon" className="w-[35px] h-[35px] md:w-[45px] md:h-[45px]" />
                             <p className="text-[0.7rem] opacity-90 my-4">{item.desc}</p>
                             <div className="flex gap-2 justify-start items-center">
-                                <Image src={item.image} alt="dp" width={69} height={69} className="w-[35px] h-[35px] md:w-[45px] md:h-[45px]" />
+                                <Image loading="lazy" src={item.image} alt="dp" width={69} height={69} className="w-[35px] h-[35px] md:w-[45px] md:h-[45px]" />
                                 <h1 className="text-[1rem] md:text-[1.2rem] pl-2">{item.name}</h1>
                             </div>
                         </div>
