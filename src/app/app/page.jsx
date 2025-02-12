@@ -8,12 +8,12 @@ export default function App() {
         const userAgent = navigator.userAgent || navigator.vendor || window.opera;
 
         if (/android/i.test(userAgent)) {
-            window.location.href = 'https://play.google.com/store/apps/details?id=com.updevelop.wellness_z_mvvm';
+            window.location.href = 'https://play.google.com/store/apps/details?id=com.wellnessz.truefit&hl=en-US';
         } else if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
             window.location.href = 'https://apps.apple.com/us/app/wellnessz/id6478812964';
         }
     }, []);
-    return (<div className="w-full bg-[url('/appRouteBanner.svg')] bg-cover bg-no-repeat">
+    return (<div className="w-full bg-[url('/tfbg.jpg')] bg-cover bg-no-repeat">
         <section className="w-full min-h-[100vh] flex justify-center items-center px-6 md:px-1">
             <div className="flex flex-col lg:flex-row justify-between items-center h-full mt-8 text-white gap-[5rem]">
                 <div className="flex flex-col items-center lg:items-start lg:pl-6 lg:w-[40%] mt-[5rem] md:mt-[10rem] lg:mt-0 text-center lg:text-left">
@@ -22,7 +22,7 @@ export default function App() {
                     </h1>
                     <p className="text-sm md:text-xl mb-5 opacity-70 ">Begin your journey Towards Making People Healthy</p>
                     <div className="flex justify-between items-center gap-5 mb-5">
-                        <Link href="https://play.google.com/store/apps/details?id=com.updevelop.wellness_z_mvvm" target="_blank">
+                        <Link href="https://play.google.com/store/apps/details?id=com.wellnessz.truefit&hl=en-US" target="_blank">
                             <Image src="/playStore.png" alt="Google Store" width={150} height={40} className="object-contain cursor-pointer" />
                         </Link>
                         <Link href="https://apps.apple.com/us/app/wellnessz/id6478812964" target="_blank">
@@ -32,7 +32,7 @@ export default function App() {
                 </div>
 
                 <div className="flex justify-center items-center mr-2 md:mr-12">
-                    <Image src="/appRouteMobileBanner.svg" alt="WellnessZ App Screens" width={900} height={900} className="w-full self-center md:w-[850px]" />
+                    <Image src="/mockup.png" alt="WellnessZ App Screens" width={900} height={900} className="w-full self-center md:w-[850px]" />
                 </div>
             </div>
         </section>
