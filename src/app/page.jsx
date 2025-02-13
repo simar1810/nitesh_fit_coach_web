@@ -140,11 +140,11 @@ export default async function FreeTrialClient() {
             <div className="md:flex items-center justify-center gap-4">
               <div>
                 <Image
-                  src="/transformation-starting.png"
+                  src="/transformation-starting.jpg"
                   alt="true fit coaches transformation"
                   height={1024}
                   width={1024}
-                  className="max-w-[300px] md:max-w-[250px] mx-auto aspect-square object-cover object-bottom mb-[10px] rounded-[12px]"
+                  className="max-w-[300px] md:max-w-[250px] mx-auto aspect-square object-cover object-top mb-[10px] rounded-[12px]"
                 />
                 <p className="text-[var(--accent-1)] font-bold">Before</p>
               </div>
