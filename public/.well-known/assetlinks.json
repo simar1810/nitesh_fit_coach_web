@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.wellnessz.truefit",
+      "sha256_cert_fingerprints": [
+        "F0:E4:5F:41:BA:CA:57:6B:AB:2C:E2:67:D4:4C:F4:98:BA:D6:42:F4:9E:01:D1:8D:78:46:5F:74:B0:6A:A9:16"
+      ]
+    }
+  }
+]
