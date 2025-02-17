@@ -136,7 +136,7 @@ export const whyChooseSection = [
   },
   {
     i: "s53.svg",
-    h: "AI-Powered Meal Plans",
+    h: "Healthy Meal Plans",
     d: "Smart recommendations based on your preferences."
   },
   {
@@ -245,17 +245,17 @@ export const subscriptionPlans = [
     ],
     planComponent: (data) => <BasicPlan plan={data} />
   },
-  {
-    title: "Premium",
-    price: "7,999",
-    description: "People needing extended support with check-ins & webinars",
-    included: [
-      "Everything in Basic Plan",
-      "4-week personalized diet plan",
-      "4 follow-up calls",
-      "Private community access",
-      "4 educational webinars"
-    ],
-    planComponent: (data) => <PopularPlan plan={data} />
-  },
+  // {
+  //   title: "Premium",
+  //   price: "7,999",
+  //   description: "People needing extended support with check-ins & webinars",
+  //   included: [
+  //     "Everything in Basic Plan",
+  //     "4-week personalized diet plan",
+  //     "4 follow-up calls",
+  //     "Private community access",
+  //     "4 educational webinars"
+  //   ],
+  //   planComponent: (data) => <PopularPlan plan={data} />
+  // },
 ];

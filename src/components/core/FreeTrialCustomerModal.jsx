@@ -15,6 +15,7 @@ export default function FreeTrialCustomerModal({ referralCode, sponsoredBy }) {
         name: e.currentTarget.name.value,
         phoneNumber: e.currentTarget.phoneNumber.value,
         email: e.currentTarget.email.value,
+        goal: e.currentTarget.goal.value,
         frontEndClient: "True_Fit"
       }
 
@@ -57,12 +58,13 @@ export default function FreeTrialCustomerModal({ referralCode, sponsoredBy }) {
   />
 
   return <form id="register" onSubmit={createCustomer} className="w-full mx-auto py-8 md:py-20 rounded-md relative px-[20px]">
-    <div className="max-w-[1200px] w-full bg-[#FAF8F8] mx-auto px-8 py-4 rounded-[24px] border-[1px] border-[#E97A4A]">
+    <div className="max-w-[1200px] w-full bg-[#FAF8F8] mx-auto px-8 py-4 rounded-[24px] border-[1px] border-[var(--accent-1)]">
       <h2 className="text-[20px] md:text-[24px] font-bold">Let&apos;s Know You Better</h2>
       <div className=" grid md:grid-cols-2 gap-x-4">
         <FormControl title="Name" placeholder="Enter Your Name" name="name" />
         <FormControl title="Phone" placeholder="Enter Your Phone" name="phoneNumber" />
         <FormControl title="Email" placeholder="Enter Your Email" name="email" />
+        <FormControl title="What is your goal" placeholder="What is your Goal" name="goal" />
       </div>
       <button className="bg-[var(--accent-1)] block text-white font-bold px-4 py-2 mx-auto mt-8 rounded-[8px]">Submit</button>
     </div>
