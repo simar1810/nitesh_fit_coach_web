@@ -243,7 +243,7 @@ export const subscriptionPlans = [
       "App access for tracking",
       "E-books & resources"
     ],
-    planComponent: (data) => <BasicPlan plan={data} />
+    planComponent: (data, key) => <BasicPlan key={key} plan={data} />
   },
   // {
   //   title: "Premium",

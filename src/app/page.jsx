@@ -58,7 +58,7 @@ export default async function FreeTrialClient() {
         <p className="text-[10px] leading-[1.2] mt-[12px]">
           Discover a healthier lifestyle with personalized nutrition plans, AI-powered tools, and expert guidance to help you manage or prevent diabetes.
         </p>
-        <Link target="_blank" href="/app" className="block w-fit bg-[var(--accent-1)] text-[var(--color-1)] text-[10px] font-bold px-4 py-2 mt-[12px] relative rounded-full">
+        <Link target="_blank" href="/app" className="block w-fit bg-[var(--accent-1)] text-[var(--color-1)] text-[12px] font-bold px-4 py-2 mt-[12px] relative rounded-full">
           <span>Start Free Today</span>
           <span className="h-full bg-[var(--accent-2)] p-1 absolute right-0 top-0 translate-x-2/3 aspect-square flex items-center justify-center rounded-full">
             <MdOutlineArrowOutward className="w-full h-full" />
@@ -88,7 +88,13 @@ export default async function FreeTrialClient() {
           <div className="w-full text-left mb-[40px]">
             <h1 className="text-[32px] md:text-[50px] font-semibold leading-[1] mb-[8px] md:mb-[14px]">How it Works</h1>
             <p className="text-[12px] md:text-[20px] text-[#D9D9D9] mb-[12px] md:mb-[20px]">See how we understand your problem and make the best suitable plan for you</p>
-            <Link target="_blank" href="/app" className="bg-white text-[10px] md:text-[16px] text-[var(--accent-1)] font-semibold rounded-full px-4 py-2">Start Free Today</Link>
+            <Link
+              target="_blank"
+              href="/app"
+              className="bg-white text-[12px] md:text-[16px] text-[var(--accent-1)] font-semibold rounded-full px-4 py-2"
+            >
+              Start Free Today
+            </Link>
           </div>
 
           <div className="max-w-[600px] w-full">
@@ -187,7 +193,7 @@ export default async function FreeTrialClient() {
         <h1 className="text-[var(--accent-1)] font-semibold text-[20px] leading-[1.2]">ABOUT US</h1>
         <h2 className="text-[24px] md:text-[48px] font-semibold text-center leading-[1.2] mb-[8px] md:mb-[12px]">Your Trusted Partner in Health</h2>
         <p className="max-w-[60ch] text-[10px] md:text-[14px] text-center mx-auto mb-[12px] md:mb-[16px]">Vee Wellness combines the power of science-backed nutrition with personalized guidance to help you reclaim your health and live diabetes-free.</p>
-        <button className="rounded-full text-white bg-[var(--accent-1)] text-sm font-semibold py-2 px-4">Download Now</button>
+        <button className="rounded-full text-white bg-[var(--accent-1)] text-[12px] md:text-[16px] font-semibold py-2 px-4">Download Now</button>
         <div className="md:max-w-[1400px] w-full flex flex-wrap justify-center items-start gap-y-8 gap-3 mt-8">
           {trustedPartners.map((item, index) => (
             <div key={index} className={`w-[48%] md:max-w-[23%] flex flex-col items-center cursor-pointer relative ${index === 0 ? "md:mt-0" : index === 1 ? "md:mt-12" : index === 2 ? "md:mt-[5rem]" : "md:mt-4"}`}>
@@ -249,7 +255,7 @@ export default async function FreeTrialClient() {
       <div className="bg-gradient-to-tr from-[#0168A826] via-[#0168A826] to-[#0168A826] px-4 py-[3rem] w-full">
         <h2 className="text-[24px] md:text-[48px] font-semibold text-center leading-[1.2] mb-[8px] md:mb-[12px]">Why Choose True Fit</h2>
         <p className="max-w-[60ch] text-[10px] md:text-[14px] text-center text-[#00000080] mx-auto mb-[12px] md:mb-[16px]">Why you should choose us. Join Our Diabetes Prevention Challenges. Start a step-by-step journey with the support of experts and a like-minded community.</p>
-        <button className="rounded-full text-white bg-[var(--accent-1)] text-[10px] md:text-[16px] font-semibold block mx-auto py-2 px-4">Join us Today</button>
+        <button className="rounded-full text-white bg-[var(--accent-1)] text-[12px] md:text-[16px] font-semibold block mx-auto py-2 px-4">Join us Today</button>
         <div className="max-w-[1200px] mx-auto flex flex-wrap justify-center items-start gap-y-8 gap-x-3 mt-8">
           {whyChooseSection.map((item, index) => (
             <div key={index} className="w-[calc(50%-8px)] md:w-[calc(33%-24px)] leading-[1.2] text-center mt-4">
@@ -277,7 +283,7 @@ export default async function FreeTrialClient() {
         </p>
 
         <div className="max-w-[1200px] mx-auto lg:flex justify-center gap-y-8 gap-3 md:gap-6 mt-[20px] md:mt-[40px]">
-          {subscriptionPlans.map((plan) => plan.planComponent(plan))}
+          {subscriptionPlans.map((plan, index) => plan.planComponent(plan, index))}
         </div>
       </div>
       {/* SUBSCRIPTION PLANS SECTION ENDS */}
@@ -286,7 +292,13 @@ export default async function FreeTrialClient() {
       <div className="bg-gradient-to-t from-[#0168A880] via-[#FFFFFF] to-[#FFFFFF] flex flex-col justify-center items-center px-4 pt-[20px] pb-[48px] md:py-[80px] gap-3 w-full relative overflow-hidden">
         <h1 className="max-w-[24ch] text-[20px] md:text-[48px] text-center font-bold mx-auto">Connect, Grow, and Thrive Together</h1>
         <p className="text-[8px] md:text-[14px] max-w-[60ch] text-center mx-auto">Join a thriving community of individuals committed to managing and preventing diabetes. Share experiences, learn together, and grow stronger.</p>
-        <Link target="_blank" href="https://chat.whatsapp.com/DYjEDVDnjZDD37i6mRbBww" className="text-[8px] md:text-[16px] font-semibold rounded-full text-white bg-[var(--accent-1)] py-2 px-4">Join the Community</Link>
+        <Link
+          target="_blank"
+          href="https://chat.whatsapp.com/DYjEDVDnjZDD37i6mRbBww"
+          className="text-[12px] md:text-[16px] font-semibold rounded-full text-white bg-[var(--accent-1)] py-2 px-4"
+        >
+          Join the Community
+        </Link>
         <Image
           src="/s71.png"
           alt=""
@@ -427,7 +439,7 @@ export function BasicPlan({
         <strong>Best For:</strong>&nbsp;
         Individuals looking to prevent diabetes with expert guidance
       </p>
-      <Link href="#register" className="bg-[var(--accent-1)] text-white font-bold text-[8px] md:text-[20px] px-4 py-2 rounded-md">Enquire Now</Link>
+      <Link href="#register" className="bg-[var(--accent-1)] text-white font-bold text-[12px] md:text-[20px] px-4 py-2 rounded-md">Enquire Now</Link>
     </div>
     <div className="min-w-[45%] md:ml-4">
       <h3 className="text-[7px] md:text-[12px] text-[#00000080] font-bold mb-2">What*nbsp;s Included</h3>
