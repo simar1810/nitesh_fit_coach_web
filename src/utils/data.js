@@ -108,7 +108,7 @@ export const howItWorks = [
   },
   {
     i: "2",
-    h: "Get Instant Access to the Vee Wellness App",
+    h: "Get Instant Access to the True Fit App",
     d: "Once you sign up, you'll receive a direct login link to our app—no extra steps needed!"
   },
   {

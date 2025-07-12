@@ -192,7 +192,7 @@ export default async function FreeTrialClient() {
       <div className="bg-gradient-to-tr from-[#449B9E1A] via-[#16BA980D] to-[#16A7621A] text-center px-4 py-[3rem] p b-[5rem] gap-3 w-full">
         <h1 className="text-[var(--accent-1)] font-semibold text-[20px] leading-[1.2]">ABOUT US</h1>
         <h2 className="text-[24px] md:text-[48px] font-semibold text-center leading-[1.2] mb-[8px] md:mb-[12px]">Your Trusted Partner in Health</h2>
-        <p className="max-w-[60ch] text-[10px] md:text-[14px] text-center mx-auto mb-[12px] md:mb-[16px]">Vee Wellness combines the power of science-backed nutrition with personalized guidance to help you reclaim your health and live diabetes-free.</p>
+        <p className="max-w-[60ch] text-[10px] md:text-[14px] text-center mx-auto mb-[12px] md:mb-[16px]">True Fit combines the power of science-backed nutrition with personalized guidance to help you reclaim your health and live diabetes-free.</p>
         <button className="rounded-full text-white bg-[var(--accent-1)] text-[12px] md:text-[16px] font-semibold py-2 px-4">Download Now</button>
         <div className="md:max-w-[1400px] w-full flex flex-wrap justify-center items-start gap-y-8 gap-3 mt-8">
           {trustedPartners.map((item, index) => (
