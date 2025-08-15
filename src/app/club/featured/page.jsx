@@ -6,12 +6,12 @@ export default function Featured() {
   const data = [
     {
       img1: "/clubTrainer1.svg",
-      name: "True Fit",
+      name: "Nitesh Fit Coach",
       post: "Wellness Coach & Gym Trainer",
       desc: "I have over 5 years of experience in gym training and cardio training i have over 100+ results and transform many lifes",
       twitter: "/",
       linkedIn: "/",
-    }
+    },
   ];
 
   return (
@@ -20,8 +20,7 @@ export default function Featured() {
         Our Featured Trainers
       </h2>
       <p className="opacity-50 md:text-[0.9rem] mb-10 text-center p-2 md:font-semibold">
-       <br />{" "}
-    
+        <br />{" "}
       </p>
 
       <div className="flex flex-wrap md:justify-center justify-between md:gap-10">

@@ -91,10 +91,7 @@ export default function Carousel() {
                                 height={443}
                                 className={`w-full aspect-square rounded-xl transition-all duration-700 ease-in-out transform object-cover origin-bottom`}
                             />
-                            {index === activeIndex && <div className={"bg-[var(--accent-1)] rounded-xl flex flex-col px-4 py-2 md:p-4 text-white mt-4 md:mt-8 transition-all duration-700 ease-in-out "}>
-                                <h1 className='font-semibold font-serif text-[12px] md:text-[24px]'>{item.name}</h1>
-                                <p className='text-left text-[8px] md:text-[12px] leading-tight mt-1 md:mt-2'>{item.review}</p>
-                            </div>}
+                     
                         </div>
                     );
                 })}

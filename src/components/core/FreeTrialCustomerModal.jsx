@@ -16,7 +16,7 @@ export default function FreeTrialCustomerModal({ referralCode, sponsoredBy }) {
         phoneNumber: e.currentTarget.phoneNumber.value,
         email: e.currentTarget.email.value,
         goal: e.currentTarget.goal.value,
-        frontEndClient: "True_Fit"
+        frontEndClient: "tnj"
       }
 
       if (!data.name || !data.phoneNumber || !data.email) throw new Error("Please Enter Name, Email, Phone Number");

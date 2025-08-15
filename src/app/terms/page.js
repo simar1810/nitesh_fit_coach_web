@@ -1,4 +1,3 @@
-
 const page = () => {
   return (
     <div className="p-[2rem]">
@@ -6,33 +5,35 @@ const page = () => {
         <strong>Terms and Conditions</strong>
       </h2>
 
-      <p>Welcome to True Fit!</p>
+      <p>Welcome to Nitesh Fit Coach!</p>
 
       <p>
         These terms and conditions outline the rules and regulations for the use
-        of True Fit&apos;s Website, located at flextransformation.com.
+        of Nitesh Fit Coach&apos;s Website, located at flextransformation.com.
       </p>
 
       <p>
         By accessing this website we assume you accept these terms and
-        conditions. Do not continue to use True Fit if you do not agree to
-        take all of the terms and conditions stated on this page.
+        conditions. Do not continue to use Nitesh Fit Coach if you do not agree
+        to take all of the terms and conditions stated on this page.
       </p>
 
       <p>
         The following terminology applies to these Terms and Conditions, Privacy
-        Statement and Disclaimer Notice and all Agreements: &quot;Client&quot;, &quot;You&quot; and
-        &quot;Your&quot; refers to you, the person log on this website and compliant to
-        the Company&apos;s terms and conditions. &quot;The Company&quot;, &quot;Ourselves&quot;, &quot;We&quot;,
-        &quot;Our&quot; and &quot;Us&quot;, refers to our Company. &quot;Party&quot;, &quot;Parties&quot;, or &quot;Us&quot;,
-        refers to both the Client and ourselves. All terms refer to the offer,
-        acceptance and consideration of payment necessary to undertake the
-        process of our assistance to the Client in the most appropriate manner
-        for the express purpose of meeting the Client&apos;s needs in respect of
-        provision of the Company&apos;s stated services, in accordance with and
-        subject to, prevailing law of in. Any use of the above terminology or
-        other words in the singular, plural, capitalization and/or he/she or
-        they, are taken as interchangeable and therefore as referring to same.
+        Statement and Disclaimer Notice and all Agreements: &quot;Client&quot;,
+        &quot;You&quot; and &quot;Your&quot; refers to you, the person log on
+        this website and compliant to the Company&apos;s terms and conditions.
+        &quot;The Company&quot;, &quot;Ourselves&quot;, &quot;We&quot;,
+        &quot;Our&quot; and &quot;Us&quot;, refers to our Company.
+        &quot;Party&quot;, &quot;Parties&quot;, or &quot;Us&quot;, refers to
+        both the Client and ourselves. All terms refer to the offer, acceptance
+        and consideration of payment necessary to undertake the process of our
+        assistance to the Client in the most appropriate manner for the express
+        purpose of meeting the Client&apos;s needs in respect of provision of
+        the Company&apos;s stated services, in accordance with and subject to,
+        prevailing law of in. Any use of the above terminology or other words in
+        the singular, plural, capitalization and/or he/she or they, are taken as
+        interchangeable and therefore as referring to same.
       </p>
 
       <h3>
@@ -40,8 +41,9 @@ const page = () => {
       </h3>
 
       <p>
-        We employ the use of cookies. By accessing True Fit, you agreed to use
-        cookies in agreement with the True Fit&apos;s Privacy Policy.
+        We employ the use of cookies. By accessing Nitesh Fit Coach, you agreed
+        to use cookies in agreement with the Nitesh Fit Coach&apos;s Privacy
+        Policy.
       </p>
 
       <p>
@@ -57,18 +59,19 @@ const page = () => {
       </h3>
 
       <p>
-        Unless otherwise stated, True Fit and/or its licensors own the
-        intellectual property rights for all material on True Fit. All
-        intellectual property rights are reserved. You may access this from True Fit for your own personal use subjected to restrictions set in these
-        terms and conditions.
+        Unless otherwise stated, Nitesh Fit Coach and/or its licensors own the
+        intellectual property rights for all material on Nitesh Fit Coach. All
+        intellectual property rights are reserved. You may access this from
+        Nitesh Fit Coach for your own personal use subjected to restrictions set
+        in these terms and conditions.
       </p>
 
       <p>You must not:</p>
       <ul>
-        <li>Republish material from True Fit</li>
-        <li>Sell, rent or sub-license material from True Fit</li>
-        <li>Reproduce, duplicate or copy material from True Fit</li>
-        <li>Redistribute content from True Fit</li>
+        <li>Republish material from Nitesh Fit Coach</li>
+        <li>Sell, rent or sub-license material from Nitesh Fit Coach</li>
+        <li>Reproduce, duplicate or copy material from Nitesh Fit Coach</li>
+        <li>Redistribute content from Nitesh Fit Coach</li>
       </ul>
 
       <p>
@@ -82,20 +85,21 @@ const page = () => {
 
       <p>
         Parts of this website offer an opportunity for users to post and
-        exchange opinions and information in certain areas of the website. True Fit does not filter, edit, publish or review Comments prior to their
-        presence on the website. Comments do not reflect the views and opinions
-        of True Fit,its agents and/or affiliates. Comments reflect the views
-        and opinions of the person who post their views and opinions. To the
-        extent permitted by applicable laws, True Fit shall not be liable for
-        the Comments or for any liability, damages or expenses caused and/or
-        suffered as a result of any use of and/or posting of and/or appearance
-        of the Comments on this website.
+        exchange opinions and information in certain areas of the website.
+        Nitesh Fit Coach does not filter, edit, publish or review Comments prior
+        to their presence on the website. Comments do not reflect the views and
+        opinions of Nitesh Fit Coach,its agents and/or affiliates. Comments
+        reflect the views and opinions of the person who post their views and
+        opinions. To the extent permitted by applicable laws, Nitesh Fit Coach
+        shall not be liable for the Comments or for any liability, damages or
+        expenses caused and/or suffered as a result of any use of and/or posting
+        of and/or appearance of the Comments on this website.
       </p>
 
       <p>
-        True Fit reserves the right to monitor all Comments and to remove any
-        Comments which can be considered inappropriate, offensive or causes
-        breach of these Terms and Conditions.
+        Nitesh Fit Coach reserves the right to monitor all Comments and to
+        remove any Comments which can be considered inappropriate, offensive or
+        causes breach of these Terms and Conditions.
       </p>
 
       <p>You warrant and represent that:</p>
@@ -121,9 +125,9 @@ const page = () => {
       </ul>
 
       <p>
-        You hereby grant True Fit a non-exclusive license to use, reproduce,
-        edit and authorize others to use, reproduce and edit any of your
-        Comments in any and all forms, formats or media.
+        You hereby grant Nitesh Fit Coach a non-exclusive license to use,
+        reproduce, edit and authorize others to use, reproduce and edit any of
+        your Comments in any and all forms, formats or media.
       </p>
 
       <h3>
@@ -179,24 +183,26 @@ const page = () => {
         that: (a) the link would not make us look unfavorably to ourselves or to
         our accredited businesses; (b) the organization does not have any
         negative records with us; (c) the benefit to us from the visibility of
-        the hyperlink compensates the absence of True Fit; and (d) the link is
-        in the context of general resource information.
+        the hyperlink compensates the absence of Nitesh Fit Coach; and (d) the
+        link is in the context of general resource information.
       </p>
 
       <p>
         These organizations may link to our home page so long as the link: (a)
         is not in any way deceptive; (b) does not falsely imply sponsorship,
         endorsement or approval of the linking party and its products or
-        services; and (c) fits within the context of the linking party&apos;s site.
+        services; and (c) fits within the context of the linking party&apos;s
+        site.
       </p>
 
       <p>
         If you are one of the organizations listed in paragraph 2 above and are
         interested in linking to our website, you must inform us by sending an
-        e-mail to True Fit. Please include your name, your organization name,
-        contact information as well as the URL of your site, a list of any URLs
-        from which you intend to link to our Website, and a list of the URLs on
-        our site to which you would like to link. Wait 2-3 weeks for a response.
+        e-mail to Nitesh Fit Coach. Please include your name, your organization
+        name, contact information as well as the URL of your site, a list of any
+        URLs from which you intend to link to our Website, and a list of the
+        URLs on our site to which you would like to link. Wait 2-3 weeks for a
+        response.
       </p>
 
       <p>Approved organizations may hyperlink to our Website as follows:</p>
@@ -212,8 +218,8 @@ const page = () => {
       </ul>
 
       <p>
-        No use of True Fit&apos;s logo or other artwork will be allowed for linking
-        absent a trademark license agreement.
+        No use of Nitesh Fit Coach&apos;s logo or other artwork will be allowed
+        for linking absent a trademark license agreement.
       </p>
 
       <h3>

@@ -39,7 +39,7 @@ export default function ClubHome() {
       ></Image>
 
       <h1 className="text-[1.3rem] md:text-[2.5rem] font-bold mb-14">
-        <span className="text-primary">True Fit</span> Club
+        <span className="text-primary">Nitesh Fit Coach</span> Club
       </h1>
 
       <h2 className="text-[1rem] md:text-[1.5rem] font-semibold text-primary">

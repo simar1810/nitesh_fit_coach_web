@@ -22,7 +22,7 @@ export default function Why() {
       <div className="flex flex-col lg:w-[50%] gap-10">
         <h1 className="text-[1.5rem] lg:text-[2.5rem] lg:leading-[3rem] font-semibold hidden lg:block">
           Why Choose <br />
-          True Fit
+          Nitesh Fit Coach
         </h1>
 
         <div className="flex flex-col gap-6">
@@ -51,12 +51,11 @@ export default function Why() {
         </Link>
       </div>
 
-      <div className="w-[276px] h-[276px] md:w-[530px] md:h-[530px] bg-[url('/s4.svg')] bg-cover bg-center rounded-full mt-2 relative">
-      </div>
+      <div className="w-[276px] h-[276px] md:w-[530px] md:h-[530px] bg-[url('/s4.svg')] bg-cover bg-center rounded-full mt-2 relative"></div>
 
       <h1 className="text-[1.5rem] lg:hidden md:text-[3rem] md:leading-[4rem] font-semibold">
         Why Choose <br />
-        True Fit
+        Nitesh Fit Coach
       </h1>
     </section>
   );

@@ -62,7 +62,7 @@ export default function RegistrationForm() {
         `${process.env.NEXT_PUBLIC_APP_BASE_URL}/user/register-user`,
         {
           ...formData,
-          frontEndClient: "True_Fit",
+          frontEndClient: "tnj",
         }
       );
       console.log(registrationResponse);
