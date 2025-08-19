@@ -42,8 +42,7 @@ export default async function FreeTrialClient() {
             diabetes.
           </p>
           <Link
-            target="_blank"
-            href="/app"
+            href="#register"
             className="w-fit bg-[var(--accent-1)] text-[var(--color-1)] text-[15px] font-bold px-4 py-2 mt-[20px] relative rounded-full"
           >
             <span>Start Free Today</span>
@@ -77,8 +76,8 @@ export default async function FreeTrialClient() {
           diabetes.
         </p>
         <Link
-          target="_blank"
-          href="/app"
+
+          href="#register"
           className="block w-fit bg-[var(--accent-1)] text-[var(--color-1)] text-[12px] font-bold px-4 py-2 mt-[12px] relative rounded-full"
         >
           <span>Start Free Today</span>
@@ -115,8 +114,7 @@ export default async function FreeTrialClient() {
               for you
             </p>
             <Link
-              target="_blank"
-              href="/app"
+              href="#register"
               className="bg-white text-[12px] md:text-[16px] text-[var(--accent-1)] font-semibold rounded-full px-4 py-2"
             >
               Start Free Today
@@ -455,7 +453,7 @@ export default async function FreeTrialClient() {
           <div className="flex gap-20 md:gap-6 lg:gap-0 flex-wrap justify-between py-12 ">
             <div className="">
               <Image
-                src="/footer-logo.png"
+                src="/logo.webp"
                 alt="Nitesh Fit Coach"
                 width={119}
                 height={120}
