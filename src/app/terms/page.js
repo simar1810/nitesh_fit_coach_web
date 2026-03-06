@@ -1,4 +1,9 @@
-const page = () => {
+export const metadata = {
+  title: "Terms and Conditions | Nitesh Fit Coach",
+  description: "Terms and conditions for the use of Nitesh Fit Coach website.",
+};
+
+export default function TermsPage() {
   return (
     <div className="p-[2rem]">
       <h2>
@@ -319,6 +324,4 @@ const page = () => {
       </p>
     </div>
   );
-};
-
-export default page;
+}

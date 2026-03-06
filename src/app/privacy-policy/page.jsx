@@ -1,4 +1,9 @@
-const PrivacyPolicy = () => {
+export const metadata = {
+  title: "Privacy Policy | Nitesh Fit Coach",
+  description: "Privacy policy for Nitesh Fit Coach - how we collect, use and protect your information.",
+};
+
+export default function PrivacyPolicy() {
   return (
     <div className="p-[2rem]">
       <h1>Privacy Policy</h1>
@@ -505,6 +510,4 @@ const PrivacyPolicy = () => {
       </ul>
     </div>
   );
-};
-
-export default PrivacyPolicy;
+}
